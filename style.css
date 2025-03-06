@@ -1,0 +1,1151 @@
+
+body {
+    font-family: 'Tajawal', sans-serif;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.hamburger{
+    display: none;
+}
+.close-menu{
+    display: none;
+}
+.mobile-menu{
+    display: none;
+}
+.navbar {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 90px;
+    background-color: white;
+}
+.nav-links {
+    display: flex;
+    gap: 45px;
+}
+.nav-links a {
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+.buttons {
+    display: flex;
+    gap: 45px;
+}
+.button {
+    width: 141px;
+    height: 29px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.login {
+    background-color: #F7A611;
+    color: white;
+}
+.signup {
+    background-color: #F1F5F9;
+    color: black;
+}
+.logo img {
+width: 150px; /* يمكنك تعديل الحجم حسب الحاجة */
+height: auto;
+}
+
+
+
+
+
+
+
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 90px;
+    gap: 30px;
+}
+.hero-text-box {
+    flex: 1;
+    text-align: right;
+}
+.hero-text {
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+.highlight {
+    color: #F7A611;
+}
+.subtext {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 10px;
+    line-height: 1.6;
+}
+.action-buttons {
+display: flex;
+gap: 20px;
+margin-top: 20px;
+}
+
+.action-button {
+width: 166px;
+height: 40px;
+border-radius: 25px;
+font-size: 15px;
+font-weight: bold;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+}
+
+/* زر طلب شهادة - لون أسود */
+.action-button.certificate {
+background-color: #000000;
+color: white;
+}
+
+/* زر ابدأ الاختبار - لون برتقالي */
+.action-button.test {
+background-color: #F7A611;
+color: white;
+}
+.hero-image-box {
+    flex: 1;
+    text-align: left;
+}
+.hero-image-box img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+
+.footer-section {
+    width: 100%;
+    background-color: #F1F5F9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 20px; /* المسافة من الأعلى */
+    padding-bottom: 60px; /* المسافة من الأسفل */
+}
+
+.container {
+    text-align: center;
+}
+
+.footer-title {
+    font-family: 'Tajawal', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.footer-text {
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.box-container {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    width: 90%;
+    margin-top: 0px;
+}
+
+.box {
+    flex: 1;
+    height: 142px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    padding: 15px;
+    position: relative;
+}
+
+.box-icon {
+    width: 56px;  /* تعديل عرض الأيقونة */
+    height: 39px; /* تعديل ارتفاع الأيقونة */
+    position: absolute;
+    right: 15px; /* تثبيت الأيقونة على اليمين */
+    top: 15px; /* تثبيت الأيقونة في الأعلى */
+}
+
+.box-content {
+    width: 100%;
+    text-align: right;
+    padding-top: 50px; /* دفع النص للأسفل لتجنب التداخل مع الأيقونة */
+}
+
+.box-title {
+    font-family: 'Tajawal', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: black;
+    text-align: right;
+}
+
+.box-text {
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: black;
+    line-height: 1.5;
+    text-align: right;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap');
+
+.custom-footer {
+    height: 430px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 50px 90px;
+    box-sizing: border-box;
+}
+
+.custom-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    max-width: calc(100% - 180px);
+}
+
+.footer-frame {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-image {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.footer-content {
+    margin-right: 80px; /* تم زيادة المسافة بين الصورة والنص */
+    text-align: right;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.footer-title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.footer-stats {
+    display: flex;
+    align-items: center;
+    gap: 200px; /* المسافة بين الأرقام */
+    margin-top: 20px;
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stat-number {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.stat-label {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+
+
+
+.custom-section {
+    width: auto;
+    height: auto; /* السماح بارتفاع مرن */
+    background-color: #F1F5F9;
+    padding: 50px 90px; /* تكبير من الأعلى والأسفل */
+    box-sizing: border-box;
+}
+
+.custom-section-title {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: right;
+    margin-bottom: 13px;
+}
+
+.custom-section-subtitle {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: right;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.custom-box-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+
+.custom-box-item {
+height: 290px;
+background-color: white;
+border-radius: 15px;
+position: relative;
+overflow: hidden;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start; /* تأكيد أن النصوص تبدأ من اليمين */
+padding-bottom: 40px;
+padding-right: 15px; /* إضافة هامش داخلي على اليمين */
+}
+
+
+.custom-box-item img {
+    width: 100%;  /* الصورة تملأ عرض المربع بالكامل */
+    height: 165px; /* زيادة الارتفاع لتظهر الصورة بالكامل */
+    object-fit: cover;
+    object-position: center; /* جعل الصورة متوازنة */
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.custom-box-content {
+width: 100%;
+position: absolute;
+bottom: 40px; /* المسافة المطلوبة للأسفل */
+text-align: right;
+padding: 0 15px; /* هامش داخلي من الجهتين */
+padding-right: 15px; /* ترك مسافة يمين ثابتة */
+}
+
+.custom-title {
+    font-size: 15px;
+    font-weight: bold;
+    color: #000;
+}
+
+.custom-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 88px;
+    height: 29px;
+    background-color: #F1F5F9;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+    margin-top: 10px; /* مسافة صغيرة بعد العنوان */
+}
+
+/* تخصيص المربع الأخير */
+.custom-orange-box {
+background-color: #F7A611 !important; /* اللون البرتقالي */
+display: flex;
+flex-direction: column;
+justify-content: center; /* توسيط المحتوى عموديًا */
+align-items: center; /* توسيط المحتوى أفقيًا */
+text-align: center;
+padding: 20px;
+border-radius: 15px;
+position: relative;
+overflow: hidden;
+}
+
+/* ضبط حجم الصورة لتكون في المنتصف بنسبة 50% من المربع */
+.custom-orange-box img {
+width: 50%; /* جعل الصورة تشغل 50% من عرض المربع */
+height: 40%; /* جعل الصورة تشغل 50% من ارتفاع المربع */
+object-fit: contain; /* التأكد من أن الصورة لا تُقص */
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -80%); /* توسيط الصورة بدقة */
+}
+
+/* ضبط النص */
+.custom-orange-box .custom-text {
+font-size: 20px;
+font-weight: bold;
+color: white;
+margin-top: auto; /* يجعل النص ينزل إلى الأسفل تلقائيًا */
+margin-bottom: 70px; /* يمكنك زيادة الرقم لتحريكه لأسفل أو تقليله لرفعه */
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.student-comments {
+    width: 100vw;
+    max-width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 50px 90px;
+}
+.student-comments .title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+}
+.student-comments .subtitle {
+    font-size: 20px;
+    font-weight: 400;
+    color: #555;
+    max-width: 700px;
+    text-align: center;
+    margin: 10px auto 30px;
+}
+.student-comments .comments {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 20px;
+}
+.student-comments .comment-box {
+    flex: 1;
+    max-width: 320px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: right;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.student-comments .comment-box .avatar {
+    width: 40px;
+    height: 40px;
+    background-color: #F1F5F9;
+    color: #000;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 16px;
+}
+.student-comments .comment-box .comment-content {
+    display: flex;
+    flex-direction: column;
+}
+.student-comments .comment-box .name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
+.student-comments .comment-box .comment {
+    font-size: 15px;
+    font-weight: 500;
+    color: #333;
+    margin-top: 5px;
+}
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container2 {
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.subscription {
+    width: 80%;
+    max-width: 1200px;
+    height: auto;
+    text-align: center;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscription h1 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Tajawal', sans-serif;
+    margin-bottom: 15px;
+}
+
+.subscription p {
+    font-size: 18px;
+    color: #666;
+    font-family: 'Tajawal', sans-serif;
+    margin-bottom: 25px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.email-input {
+    width: 250px;
+    height: 50px;
+    background-color: #E2E8F0;
+    border-radius: 25px;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.submit-button {
+    width: 170px;
+    height: 50px;
+    background-color: #F7A611;
+    border-radius: 25px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Tajawal', sans-serif;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.submit-button:hover {
+    background-color: #e6950f;
+}
+
+/* قلب ترتيب الأزرار بحيث يصبح الإدخال على اليسار والزر على اليمين */
+.input-container {
+    flex-direction: row-reverse;
+}
+
+
+
+.footer1 {
+    width: 100%;
+    height: 380px;
+    background-color: #1D355E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 90px;
+    color: white;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.footer-content1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quick-links {
+    text-align: right; /* جعل الروابط في اليسار */
+}
+
+.quick-links h3 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.quick-links a {
+    display: block;
+    font-size: 15px;
+    font-weight: 400; /* خط Regular */
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.logo {
+    max-height: 60px;
+}
+
+.copyright {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Tajawal', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    /* إعدادات عامة للجوال */
+    body {
+        font-family: 'Tajawal', sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #ffffff; /* Changed to white as per the image */
+        direction: rtl; /* Ensure RTL for Arabic */
+    }
+    
+    /* الهيدر */
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #ffffff;
+        padding: 10px 20px;
+        margin: 0; /* Remove negative margin for better spacing */
+        direction: ltr; /* Kept as LTR for logo alignment */
+        
+    }
+    
+    .hamburger {
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+        padding: 5px;
+        color: #000000;
+        background-color: transparent;
+    }
+    
+    .nav-links {
+        display: none;
+    }
+    
+    .buttons {
+        display: none;
+    }
+    
+    .logo {
+        display: block;
+        font-size: 32px; /* Slightly smaller for better proportionality */
+        cursor: pointer;
+        padding: 0px;
+        color: #000000;
+        background-color: transparent;
+        margin-right: 180px;
+    }
+    
+    .logo img {
+        height: 30px;
+         /* Adjust based on actual logo size */
+    }
+    
+    
+    .mobile-menu {
+        display: none;
+        background-color: #121e5a;
+        color: white;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 999;
+        flex-direction: column;
+        padding: 120px 30px;
+        align-items: flex-end;
+        justify-content: space-between;
+        opacity: 0; /* Start with 0 opacity */
+        transform: translateX(100%); /* Start off-screen to the right */
+        transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth transition */
+        
+    }
+    
+    .mobile-menu.active {
+        display: flex;
+        opacity: 1; /* Fully visible */
+        transform: translateX(0); /* Slide in from the right */
+       
+    }
+    
+    .mobile-menu a {
+        color: white;
+        text-decoration: none;
+        font-size: 15px; /* Larger font size for links */
+        margin-bottom: 22px; /* More spacing between links */
+        display: block;
+        font-weight: 500;
+        
+        
+    }
+    
+    
+    .close-menu {
+        position: absolute;
+        top: 15px;
+        right: 20px;
+        font-size: 28px;
+        cursor: pointer;
+        color: white;
+        z-index: 1000; /* Ensure it's above other elements */
+        display: block; /* Ensure it's not hidden */
+        line-height: 1; /* Prevent any line-height issues */
+       
+    }
+    
+    /* Style for the buttons in the mobile menu */
+    .mobile-buttons {
+        display: flex;
+        flex-direction: row-reverse; /* Stack buttons vertically */
+        gap: 15px;
+        width: 100%;
+        align-items: center; /* Center the buttons */
+        margin-top: 90px; /* Add some spacing from the bottom */
+        padding-top: 90px;
+        
+    }
+    
+    .mobile-buttons .button {
+        padding: 12px 5px;
+        border-radius: 25px;
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 16px;
+        text-align: center;
+        width: 200px; /* Fixed width for buttons */
+    }
+    
+    .mobile-buttons .signup {
+        background-color: #f90; /* Orange button */
+        color: #ffffff;
+    }
+    
+    .mobile-buttons .login {
+        background-color: #ffffff; /* Black button */
+        color: #000000;
+    }
+    
+    /* الهيرو */
+    .hero-container {
+        text-align: center;
+        padding: 20px 15px; /* Reduced padding for a tighter look */
+        background-color: #ffffff;
+        padding-right: 15px;
+    }
+    
+    .hero-text {
+        font-size: 41px; /* Slightly smaller for mobile */
+        font-weight: 700;
+        line-height: 1.5;
+        color: #000000;
+        text-align: center;
+    }
+    
+    .hero-text .highlight {
+        color: #f90; /* Orange highlight */
+    }
+    
+    .hero-image-box {
+        display: none;
+    }
+    
+    #gim {
+        display: none;
+    }
+    
+    .subtext {
+        font-size: 12px; 
+        color: #000000;
+        text-align: center;
+        line-height: 1.9;
+        padding-right: 5px;
+    }
+    
+    .action-buttons {
+       /* Changed to flex for proper button alignment */
+        justify-content:center;
+        gap: 15px;
+        padding: 10px;        
+    }
+    
+    .action-button {
+        padding: 12px 25px; /* Slightly larger padding for better touch targets */
+        border-radius: 25px; /* More rounded corners */
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 16px;
+        border: none;
+        width: 150px;
+        
+        
+    }
+    
+    .action-button.orange {
+        background-color: #f90;
+        color: #ffffff;
+    }
+    
+    .action-button.black {
+        background-color: #000000;
+        color: #ffffff;
+    }
+    
+    /* صندوق المعلومات */
+    .footer-section {
+        background-color: #e6f0fa; /* Light blue background */
+        padding: 30px 20px;
+        text-align: center;
+    }
+    .footer-text{
+        font-size: 12px;
+        padding-right: 25px;
+        text-align: center;
+    }
+    .footer-title{
+        font-size: 29px;
+    }
+    .box-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px; /* More spacing between boxes */
+        margin-top: 20px;
+    }
+    
+    .box {
+        display: flex;
+        flex-direction: row-reverse; /* RTL: icon on the left, text on the right */
+        align-items: center;
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: right;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
+    }
+    
+    .box img {
+        width: 40px;
+        height: 40px;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .box p {
+        margin: 0;
+        font-size: 16px;
+        color: #333;
+        text-align: center;
+    }
+    .box-icon{
+        margin-right: 38%;
+    }
+    .box-title{
+        text-align: center;
+    }
+    /* من نحن */
+    .custom-footer {
+        background-color: white;
+        margin-right: 0px;
+        text-align: center;
+        direction: rtl;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 150px;
+        padding-left: px;
+        
+    }
+
+    .footer-content{
+        text-align: center;
+        padding-right: 50%;
+        margin-right: 25px;
+    }
+    .footer-text{
+        display: block;
+        width: 90%;
+        text-align: center;
+        padding-left: 10px;
+        margin-left: 15px;
+        margin-right: 0;
+
+    }
+    .custom-container{
+        display: flex;
+        flex-direction: column-reverse;
+    
+    }
+    
+    .footer-stats {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 15px;
+        width: 70%;
+        
+    }
+    
+    .stat-item {
+        
+        text-align: center;
+        width: 70%;
+    }
+    
+    .stat-number {
+        display: none;
+        font-size: 18px;
+        font-weight: bold;
+        color: #004a80;
+    }
+    
+    .stat-label{
+        display: none;
+    }
+    /* الاختبارات الأكثر طلباً */
+    .custom-section {
+        background-color: white;
+        padding: 20px;
+        text-align: center;
+    }
+    .custom-section-title{
+        font-size: 31px;
+        text-align: center;
+    }
+    .custom-section-subtitle{
+        font-size: 12px;
+        text-align: center;
+    }
+    .custom-box-container {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 15px;
+        margin-right: 15px;
+        margin-left:15px;
+    }
+    
+    .custom-box-item {
+        background-color: #f1f1f1;
+        padding: 15px;
+        border-radius: 8px;
+        text-align: center;
+        position: relative;
+    }
+    
+    .custom-box-item img {
+        width: 100%;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+    
+    .custom-button {
+        background-color: rgb(213, 208, 200);
+        color: rgb(0, 0, 0);
+        padding: 3px 15px;
+        display: inline-block;
+        border-radius: 25px;
+        text-align: right;
+        width: 100px;
+    }
+    
+    /* صندوق التعليقات */
+    .student-comments {
+        background-color: white;
+        padding: 20px;
+        text-align: center;
+        .title{
+            font-size: 30px;
+        }
+        .subtitle{
+            font-size: 15px;
+            color: #000;
+        }
+    }
+    
+    .comment-box {
+        background-color: #f1f1f1;
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 10px;
+        border-radius: 8px;
+    }
+    
+    .avatar {
+        width: 40px;
+        height: 40px;
+        background-color: #004a80;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        border-radius: 50%;
+    }
+    
+    .comment-content {
+        text-align: right;
+        flex: 1;
+    }
+    
+    .name {
+        font-weight: bold;
+        color: #004a80;
+        margin-bottom: 5px;
+    }
+    
+    .comment {
+        font-size: 14px;
+        color: #666;
+    }
+    
+    /* تسجيل البريد */
+    .container2 {
+        background-color: white;
+        padding: 0px;
+        margin: 0%;
+        text-align: center;
+        h1{
+            display: inline-block;
+            font-size: 23px;
+        }
+    }
+    
+    .input-container {
+        display: flex;
+        flex-direction:row-reverse;
+        gap: 10px;
+    }
+    
+    .email-input {
+        padding: 10px;
+        width: 100%;
+        border: 1px solid #ddd;
+        border-radius: 30px;
+    }
+    
+    .submit-button {
+        background-color: #f90;
+        color: white;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+        font-weight: bold;
+        width: 260px;
+    }
+    
+    /* الفوتر */
+    .footer1 {
+        background-color: #013a63;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        
+    }
+    
+    .quick-links {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin-bottom: 15px;
+        width: 200px;
+        margin-top: 60px;
+        h3{
+            white-space: nowrap;
+        }
+        a{
+            white-space: nowrap;
+        }
+    }
+    .logo3{
+        
+        margin-bottom: 97px;
+    }
+    .quick-links a {
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+        padding: 3px;
+    }
+    
+    .copyright {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    
+    /* إظهار القائمة عند الضغط */
+    .mobile-menu.active {
+        display: flex;
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
