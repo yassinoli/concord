@@ -711,7 +711,7 @@ margin-bottom: 70px; /* يمكنك زيادة الرقم لتحريكه لأسف
         position: fixed;
         top: 0;
         right: 0;
-        width: 100%;
+        width: 97%;
         height: 100%;
         z-index: 999;
         flex-direction: column;
@@ -797,7 +797,7 @@ margin-bottom: 70px; /* يمكنك زيادة الرقم لتحريكه لأسف
     }
     
     .hero-text {
-        font-size: 41px; /* Slightly smaller for mobile */
+        font-size: 38px; /* Slightly smaller for mobile */
         font-weight: 700;
         line-height: 1.5;
         color: #000000;
@@ -817,10 +817,10 @@ margin-bottom: 70px; /* يمكنك زيادة الرقم لتحريكه لأسف
     }
     
     .subtext {
-        font-size: 12px; 
+        font-size: 15px; 
         color: #000000;
         text-align: center;
-        line-height: 1.9;
+        line-height: 1.6;
         padding-right: 5px;
     }
     
@@ -858,11 +858,14 @@ margin-bottom: 70px; /* يمكنك زيادة الرقم لتحريكه لأسف
         background-color: #e6f0fa; /* Light blue background */
         padding: 30px 20px;
         text-align: center;
+        
     }
     .footer-text{
-        font-size: 12px;
+        font-size: 15px;
         padding-right: 25px;
         text-align: center;
+        line-height: 1.6;
+        
     }
     .footer-title{
         font-size: 29px;
@@ -945,6 +948,7 @@ margin-bottom: 70px; /* يمكنك زيادة الرقم لتحريكه لأسف
         
     }
     
+    
     .stat-item {
         
         text-align: center;
@@ -972,8 +976,9 @@ margin-bottom: 70px; /* يمكنك زيادة الرقم لتحريكه لأسف
         text-align: center;
     }
     .custom-section-subtitle{
-        font-size: 12px;
+        font-size: 15px;
         text-align: center;
+        line-height: 1.6;
     }
     .custom-box-container {
         display: flex;
