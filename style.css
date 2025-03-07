@@ -653,9 +653,6 @@ margin-bottom: 70px; /* يمكنك زيادة الرقم لتحريكه لأسف
 
 
 
-
-
-
 @media (max-width: 768px) {
     /* إعدادات عامة للجوال */
     * {
@@ -703,7 +700,7 @@ margin-bottom: 70px; /* يمكنك زيادة الرقم لتحريكه لأسف
     
     .logo {
         display: block;
-        font-size: 32px;
+        font-size: 38px;
         cursor: pointer;
         padding: 0;
         color: #000000;
@@ -713,7 +710,8 @@ margin-bottom: 70px; /* يمكنك زيادة الرقم لتحريكه لأسف
     }
     
     .logo img {
-        height: 40px;
+        height: 30px;
+        width: 110px;
     }
     
     .mobile-menu {
@@ -802,7 +800,7 @@ margin-bottom: 70px; /* يمكنك زيادة الرقم لتحريكه لأسف
     }
     
     .hero-text {
-        font-size: 41px;
+        font-size: 38px;
         font-weight: 700;
         line-height: 1.5;
         color: #000000;
@@ -970,7 +968,7 @@ margin-bottom: 70px; /* يمكنك زيادة الرقم لتحريكه لأسف
     
     /* الاختبارات الأكثر طلباً */
     .custom-section {
-        background-color: white;
+        background-color: #F1F5F9;
         padding: 20px;
         text-align: center;
         width: 100%; /* تملأ العرض */
@@ -998,14 +996,13 @@ margin-bottom: 70px; /* يمكنك زيادة الرقم لتحريكه لأسف
     .custom-box-item {
         background-color: #f1f1f1;
         padding: 15px;
-        border-radius: 8px;
+        border-radius: 10px;
         text-align: center;
         position: relative;
     }
     
     .custom-box-item img {
         width: 100%;
-        border-radius: 5px;
         margin-bottom: 10px;
     }
     
@@ -1017,6 +1014,9 @@ margin-bottom: 70px; /* يمكنك زيادة الرقم لتحريكه لأسف
         border-radius: 25px;
         text-align: right;
         width: 100px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
     }
     
     /* صندوق التعليقات */
@@ -1110,6 +1110,7 @@ margin-bottom: 70px; /* يمكنك زيادة الرقم لتحريكه لأسف
         font-weight: bold;
         width: 90%; /* عرض نسبي */
         max-width: 260px; /* حد أقصى */
+        font-size: 14px;
     }
     
     /* الفوتر */
@@ -1156,7 +1157,6 @@ margin-bottom: 70px; /* يمكنك زيادة الرقم لتحريكه لأسف
         display: flex;
     }
 }
-
 
 
 
